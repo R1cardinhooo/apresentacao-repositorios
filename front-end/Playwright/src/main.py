@@ -27,14 +27,14 @@ def initial_page():
     insert_text.fill(TEXT_BROWSER)
     time.sleep(2)
 
-def ending_broser():
+def ending_browser():
 
     driver.close()
 
 def main():
     
     initial_page()
-    ending_broser()
+    ending_browser()
 
 if __name__ == "__main__":
     main()
